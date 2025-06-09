@@ -1,11 +1,50 @@
-# Sample Snack app
+# Alice Words FIAP
 
-Open the `App.js` file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the **QR code** or use the iOS or Android emulators. When you're done, click **Save** and share the link!
+Este projeto é um aplicativo mobile desenvolvido em React Native com Expo, criado para o desafio da FIAP. O objetivo do app é testar a memória dos usuários por meio de uma dinâmica simples: o usuário recebe uma lista de palavras aleatórias, deve memorizá-las em um tempo determinado e, após esse período, precisa informar as palavras que lembra.
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can **Download** your project and use it with [expo cli](https://docs.expo.dev/get-started/installation/#expo-cli)).
+## Funcionalidades
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the `<>` button.
+- Geração de palavras aleatórias via API.
+- Armazenamento local dos dados utilizando AsyncStorage.
+- Contagem regressiva para o tempo de memorização.
+- Validação das palavras informadas pelo usuário.
+- Interface amigável e responsiva.
 
-If you're having problems, you can tweet to us [@expo](https://twitter.com/expo) or ask in our [forums](https://forums.expo.dev/c/expo-dev-tools/61) or [Discord](https://chat.expo.dev/).
+## Estrutura do Projeto
 
-Snack is Open Source. You can find the code on the [GitHub repo](https://github.com/expo/snack).
+- `src/components`: Componentes reutilizáveis da interface.
+- `src/screens`: Telas principais do fluxo do app.
+- `src/services`: Serviços para integração com API e armazenamento local.
+- `src/hooks`: Hooks customizados para lógica de negócio.
+- `src/utils`: Funções utilitárias e constantes.
+
+## Como executar
+
+1. Instale as dependências:
+   ```sh
+   npm install
+   ```
+2. Inicie o projeto:
+   ```sh
+   npm start
+   ```
+3. Use um emulador ou o aplicativo Expo Go para testar no seu dispositivo.
+
+## Tecnologias
+
+- React Native
+- Expo
+- AsyncStorage
+- React Navigation
+
+### Como iniciar este exercício
+
+Clique em **Copiar Exercício** e abra o link em uma nova aba.
+
+   <a id="copy-exercise" target="_blank" href="https://github.com/new?template_name=fiap-alice-words-with-ai&template_owner=jaisonschmidt&name=fiap-rn-projectname&owner=%40me&visibility=public">
+      <img src="https://img.shields.io/badge/📠_Copiar_Exercício-008000" height="25pt"/>
+   </a>
+
+---
+
+Desenvolvido para o desafio FIAP.
