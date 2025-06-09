@@ -9,5 +9,5 @@ export const routeMap = {
 
 export const STORAGE_KEY = "aliceWordsData";
 
-export const API_URL = "https://fiap-bff.onrender.com/";
+export const API_URL = "https://fiap-bff-8aojr.onrender.com/";
 export const RANDOM_WORDS_API_PATH = "ask";
